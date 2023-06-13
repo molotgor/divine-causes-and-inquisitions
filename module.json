@@ -4,7 +4,7 @@
     "description": "A module containing the exported Divine Causes and Inquisitions compendium.",
     "version": "1.1.0",
     "library": "false",
-    "manifestPlusVersion": "1.0.0",
+    "manifestPlusVersion": "1.1.0",
     "compatibility": {
         "minimum": 10,
         "verified": 10,
@@ -13,12 +13,12 @@
     "authors": [
         {
             "name": "molotgor",
-            "email": "",
-            "url": ""
+            "email": "molotgog@gmail.com",
+            "flags": {}
         }
     ],
     "flags": {
-        "shifter-class": {
+        "divine-causes-and-inquisitions": {
           "pf2e-homebrew": {
             "spellTraits": {
               "inquisitor":{
@@ -86,7 +86,7 @@
         },
         {
             "type": "Item",
-            "label": "Inquisitor Class - Effects",
+            "label": "Divine Causes an Inquisitions - Effects",
             "module": "divine-causes-and-inquisitions",
             "path": "packs/effects.db",
             "name": "effects",
