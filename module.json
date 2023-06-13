@@ -1,0 +1,202 @@
+{
+    "name": "divine-causes-and-inquisitions",
+    "title": "Divine Causes and Inquisitions",
+    "description": "A module containing the exported Divine Causes and Inquisitions compendium.",
+    "version": "0.1.0",
+    "library": "false",
+    "manifestPlusVersion": "0.1.0",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 10,
+        "maximum": 11
+    },
+    "authors": [
+        {
+            "name": "molotgor",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "flags": {
+        "shifter-class": {
+          "pf2e-homebrew": {
+            "spellTraits": {
+              "inquisitor":{
+                "label": "Inquisitor",
+                "description": "This indicates abilities from the inquisitor class."
+              },
+              "judgment":{
+                "label": "Judgment",
+                "description": "A judgment is a free action or reaction that affects your claimant."
+              },
+              "condemnation":{
+                "label": "Condemnation",
+                "description": "This judgment or sentence cantrip is typically used against an enemy claimant."
+              },
+              "plaudit":{
+                "label": "Plaudit",
+                "description": "This judgment or sentence cantrip is typically used to support an ally claimant."
+              }
+            },
+            "featTraits": {
+                "inquisitor":{
+                  "label": "Inquisitor",
+                  "description": "This indicates abilities from the inquisitor class."
+                },
+                "judgment":{
+                  "label": "Judgment",
+                  "description": "A judgment is a free action or reaction that affects your claimant."
+                },
+                "condemnation":{
+                  "label": "Condemnation",
+                  "description": "This judgment or sentence cantrip is typically used against an enemy claimant."
+                },
+                "plaudit":{
+                  "label": "Plaudit",
+                  "description": "This judgment or sentence cantrip is typically used to support an ally claimant."
+                }
+            }
+          }
+        }
+      },
+    "packs": [
+        {
+            "type": "Item",
+            "label": "Inquisitor - Feats/Features",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/inquisitor-featsfeatures.db",
+            "name": "inquisitor-featsfeatures",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Inquisitor - Class",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/inquisitor-class.db",
+            "name": "inquisitor-class",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Divine Causes an Inquisitions - Actions",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/actions.db",
+            "name": "actions",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Inquisitor Class - Effects",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/effects.db",
+            "name": "effects",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Divine Causes an Inquisitions - New Champion Feats",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/new-champion-feats.db",
+            "name": "new-champion-feats",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Divine Causes and Inquisitions - Spells",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/spells.db",
+            "name": "spells",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Divine Causes and Inquisitions - Inquisitions",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/inquisitions.db",
+            "name": "inquisitions",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Divine Causes and Inquisitions - Causes",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/causes.db",
+            "name": "causes",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Divine Causes and Inquisitions - Deity",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/deity.db",
+            "name": "deity",
+            "system": "pf2e"
+        },
+        {
+            "type": "JournalEntry",
+            "label": "Divine Causes and Inquisitions - Journals",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/journals.db",
+            "name": "journals",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Recorder (Class Archetype)",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/recorder-class-archetype.db",
+            "name": "recorder-class-archetype",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Inquisitor Archetype",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/inquisitor-archetype.db",
+            "name": "inquisitor-archetype",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Divine Dispeler Archetype",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/divine-dispeler-archetype.db",
+            "name": "divine-dispeler-archetype",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Graveknight Archetype",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/graveknight-archetype.db",
+            "name": "graveknight-archetype",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Intercessor Archetype",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/intercessor-archetype.db",
+            "name": "intercessor-archetype",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Divine Causes and Inquisitions - Items",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/items.db",
+            "name": "items",
+            "system": "pf2e"
+        },
+        {
+            "type": "Item",
+            "label": "Divine Causes and Inquisitions - Deviant Abilities",
+            "module": "divine-causes-and-inquisitions",
+            "path": "packs/deviant-abilities.db",
+            "name": "deviant-abilities",
+            "system": "pf2e"
+        }
+    ],
+    "manifest": "",
+    "download": ""
+}
