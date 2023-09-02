@@ -2,19 +2,18 @@
     "name": "divine-causes-and-inquisitions",
     "title": "Divine Causes and Inquisitions",
     "description": "A module containing the exported Divine Causes and Inquisitions compendium.",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "library": "false",
-    "manifestPlusVersion": "1.1.0",
     "compatibility": {
-        "minimum": 10,
-        "verified": 10,
+        "minimum": 11,
+        "verified": 11,
         "maximum": 11
     },
     "authors": [
         {
-            "name": "molotgor",
-            "email": "molotgog@gmail.com",
-            "flags": {}
+          "name": "Molotgor",
+          "email": "molotgog@gmail.com",
+          "discord": "Molotgor"
         }
     ],
     "flags": {
@@ -59,10 +58,73 @@
           }
         }
       },
+      
+  "packFolders": [
+    {
+      "name": "Divine Causes and Inquisitions",
+      "sorting": "m",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "packs": [
+        "journals",
+        "spells",
+        "actions",
+        "effects"
+      ],
+      "folders": [{
+        "name": "Inquisitor Class",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "inquisitor-featsfeatures",
+          "inquisitor-class",
+          "recorder-class-archetype",
+          "inquisitor-archetype"
+        ],
+        "folders": []
+      },
+      {
+        "name": "Causes and Inquisitions",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "inquisitions",
+          "causes",
+          "deity",
+          "new-champion-feats"
+        ],
+        "folders": []
+      },
+      {
+        "name": "Divine Options For All!",
+        "sorting": "m",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        },
+        "packs": [
+          "divine-dispeler-archetype",
+          "graveknight-archetype",
+          "intercessor-archetype",
+          "items",
+          "deviant-abilities"
+        ],
+        "folders": []
+      }]
+    }
+  ],
     "packs": [
         {
             "type": "Item",
-            "label": "Inquisitor - Feats/Features",
+            "label": "Feats/Features",
             "module": "divine-causes-and-inquisitions",
             "path": "packs/inquisitor-featsfeatures.db",
             "name": "inquisitor-featsfeatures",
@@ -70,7 +132,7 @@
         },
         {
             "type": "Item",
-            "label": "Inquisitor - Class",
+            "label": "Class",
             "module": "divine-causes-and-inquisitions",
             "path": "packs/inquisitor-class.db",
             "name": "inquisitor-class",
@@ -94,7 +156,7 @@
         },
         {
             "type": "Item",
-            "label": "Divine Causes an Inquisitions - New Champion Feats",
+            "label": "New Champion Feats",
             "module": "divine-causes-and-inquisitions",
             "path": "packs/new-champion-feats.db",
             "name": "new-champion-feats",
@@ -110,7 +172,7 @@
         },
         {
             "type": "Item",
-            "label": "Divine Causes and Inquisitions - Inquisitions",
+            "label": "Inquisitions",
             "module": "divine-causes-and-inquisitions",
             "path": "packs/inquisitions.db",
             "name": "inquisitions",
@@ -118,7 +180,7 @@
         },
         {
             "type": "Item",
-            "label": "Divine Causes and Inquisitions - Causes",
+            "label": "Causes",
             "module": "divine-causes-and-inquisitions",
             "path": "packs/causes.db",
             "name": "causes",
@@ -126,7 +188,7 @@
         },
         {
             "type": "Item",
-            "label": "Divine Causes and Inquisitions - Deity",
+            "label": "Deities",
             "module": "divine-causes-and-inquisitions",
             "path": "packs/deity.db",
             "name": "deity",
@@ -134,7 +196,7 @@
         },
         {
             "type": "JournalEntry",
-            "label": "Divine Causes and Inquisitions - Journals",
+            "label": "Journals",
             "module": "divine-causes-and-inquisitions",
             "path": "packs/journals.db",
             "name": "journals",
@@ -182,7 +244,7 @@
         },
         {
             "type": "Item",
-            "label": "Divine Causes and Inquisitions - Items",
+            "label": "Items",
             "module": "divine-causes-and-inquisitions",
             "path": "packs/items.db",
             "name": "items",
@@ -190,7 +252,7 @@
         },
         {
             "type": "Item",
-            "label": "Divine Causes and Inquisitions - Deviant Abilities",
+            "label": "Divine Deviant Abilities",
             "module": "divine-causes-and-inquisitions",
             "path": "packs/deviant-abilities.db",
             "name": "deviant-abilities",
