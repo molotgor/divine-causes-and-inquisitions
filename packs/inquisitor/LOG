@@ -1,0 +1,8 @@
+2024/06/11-20:50:42.693 2a64 Recovering log #35
+2024/06/11-20:50:42.705 2a64 Delete type=0 #35
+2024/06/11-20:50:42.705 2a64 Delete type=3 #33
+2024/06/11-20:51:54.046 5d44 Level-0 table #41: started
+2024/06/11-20:51:54.046 5d44 Level-0 table #41: 0 bytes OK
+2024/06/11-20:51:54.051 5d44 Delete type=0 #39
+2024/06/11-20:51:54.051 5d44 Manual compaction at level-0 from '!folders!3KordzZgbSAQAl0T' @ 72057594037927935 : 1 .. '!items!ztqYJmWXWYiXKBlE' @ 0 : 0; will stop at (end)
+2024/06/11-20:51:54.051 5d44 Manual compaction at level-1 from '!folders!3KordzZgbSAQAl0T' @ 72057594037927935 : 1 .. '!items!ztqYJmWXWYiXKBlE' @ 0 : 0; will stop at (end)
